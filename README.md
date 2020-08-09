@@ -1,2 +1,1 @@
-# exploratorytestingacademy.github.io
-Academy web pages
+# exploratory-testing-academy
