@@ -21,6 +21,12 @@ html {
       color: #ffffff;
   }
 
+  h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 20;
+    color: #d54282;
+}
+
   .item1 { grid-area: logo; }
   .item2 { grid-area: listing; }
   .item3 { grid-area: onlinews; }
