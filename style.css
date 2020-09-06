@@ -1,0 +1,144 @@
+html {
+    font-family: 'Lato', cursive;
+    font-size: 20;
+  }
+  
+  h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 112;
+      color: #000000;
+      float:left;
+      clear:none;
+  }
+  
+  h4 {
+      font-family: 'Lobster', cursive;
+      color: #000000;
+  }
+  
+  h3 {
+      font-family: 'Lobster', cursive;
+      font-size: 80;
+      color: #ffffff;
+  }
+  
+  
+  table {
+      width: "100%";
+      background: "rgb(0, 0, 0)"; /* fallback color */
+      background: rgba(0, 0, 0, 0.1);
+      padding: 0px;
+  }
+  
+  .mainnav ul {
+    list-style: none;
+    margin: 0 20px 40px 20px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; }
+  
+  @media all and (min-width: 53.125em) {
+    .mainnav ul {
+      border-bottom: 4px solid #0492C2; }
+    }
+  
+  .mainnav li {
+            margin: 0 10px; }
+  
+  .mainnav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 10px 0; }
+  
+  .mainnav a:hover {
+    border-bottom: 4px solid #000000;
+    margin-bottom: -4px; }
+  
+  .mainnav a.selected, .mainnav a.selected:hover {
+    color: #000000;
+    border-bottom: 4px solid #000000;
+    margin-bottom: -4px; }
+  
+  .workshop {
+      border-block: 1px;
+  } 
+
+  .workshop h2 {
+      font-size: 20;
+  }
+
+  .logo {
+    width: 20%;
+    float:left;
+  }
+  
+  .listing {
+    width: 95%;
+    text-align: center;
+  }
+  
+  .grouping {
+    text-align: center;
+  }
+  
+  svg {
+    float:left;
+    clear:none;
+  }
+  
+  .main-footer {
+    background-color: #0492C2;
+    width: 97%;
+    color: #ffffff;
+    padding: 20px;
+    display: grid;
+    border-width: 0px;
+    float:left;
+    clear:none;
+  }
+  
+  .main-footer h1 {
+    color: #ffffff; 
+  }
+  
+  .main-footer p {
+    margin: 0 0 1em 0; }
+  
+  .main-footer a:link,
+  .main-footer a:visited {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none; }
+  
+  .main-footer a:hover {
+    color: #000000; }
+  
+  .main-footer  {
+    grid-column: 1 / -1; }
+  
+  @media all and (min-width: 53.125em) {
+    .main-footer .contact,
+    .main-footer .footer-nav,
+    .main-footer .footer-elsewhere {
+      width: 25%;
+      margin-right: 2%;
+      display: inline-block;
+      vertical-align: top; }
+    .main-footer .contact {
+      width: 35%; }
+    @supports (display: grid) {
+      .main-footer .contact {
+        width: auto;
+        grid-column: 1 / 6;
+        padding-right: 20px;
+        border-right: 4px dashed #fff; }
+      .main-footer .footer-nav {
+        width: auto;
+        grid-column: 6 / 9; }
+      .main-footer .footer-elsewhere {
+        width: auto;
+        grid-column: 9 / -1; } } }
+  
