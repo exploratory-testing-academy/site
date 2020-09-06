@@ -7,7 +7,6 @@ html {
       font-family: 'Lobster', cursive;
       font-size: 112;
       color: #000000;
-      float:left;
       clear:none;
   }
   
@@ -21,24 +20,26 @@ html {
       font-size: 80;
       color: #ffffff;
   }
-  
-  
-  .listing {
-    width: 80%;
-    text-align: left;
-    float: left;
-  }
-  
-  .grouping {
-    text-align: left;
-    float: left;
+
+  .item1 { grid-area: logo; }
+  .item2 { grid-area: listing; }
+  .item3 { grid-area: onlinews; }
+  .item4 { grid-area: selfstudy; }
+  .item5 { grid-area: other; }
+
+
+  .grid-container {
+      display: grid;
+      grid-column-gap: 10px;
+      grid-template-areas: 
+      'logo logo listing listing listing listing'
+      'onlinews onlinews selfstudy selfstudy other other'
   }
 
   .logo {
-    width: 20%;
-    float:left;
+      width: 80%;
   }
-  
+
   .workshop {
     border-block: 1px;
 } 
