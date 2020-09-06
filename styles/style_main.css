@@ -64,7 +64,7 @@ html {
     }
   
   .mainnav li {
-            margin: 0 10px; }
+    margin: 0 10px; }
   
   .mainnav a {
     text-transform: uppercase;
@@ -74,14 +74,14 @@ html {
     padding: 10px 0; }
   
   .mainnav a:hover {
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #d54282;;
     margin-bottom: -4px; }
   
   .mainnav a.selected, .mainnav a.selected:hover {
     color: #000000;
-    border-bottom: 4px solid #000000;
-    margin-bottom: -4px; }
-  
+    border-bottom: 4px solid #d54282;
+    margin-bottom: -4px; } 
+
  /** Bottom of the page **/ 
 
  /** Waves **/
