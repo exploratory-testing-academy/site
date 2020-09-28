@@ -1,0 +1,35 @@
+Functions of 'to be'
+
+identity            The cat is my only pet; The cat is Garfield
+class membership    Garfield is a cat
+class inclusion     A cat is an animal
+predication         The cat is furry
+auxiliary           The cat is sleeping; The cat is being bitten by the dog. 
+existence           There is a cat
+location            The cat is on the mat; The cat is here
+
+Forbidden words list
+
+be, being, been, am, is, isn't, are, aren't, was, wasn't, were, and weren't
+
+Contractions
+
+I'm, you're, we're, they're, he's, she's, it's, there's, here's, where's, how's, what's, who's, and that's
+
+Contractions, non-standard dialects
+
+ain't
+
+Psychological distress
+
+I am depressed
+I feel depressed when
+I tend to make myself depressed about 
+
+Bible
+
+Blessed are the poor in spirit, for theirs is the kingdom of heaven.
+The poor in spirit receive blessings, for the kingdom of heaven belongs to them.
+
+Bible in eprime (long text)
+
