@@ -17,3 +17,10 @@ html {
 }
 .ep_violation {color: red}
 .ep_warning {color: blue}
+
+
+.page {
+  width: 600px;
+  position: fixed;
+  left: 10%;
+}
