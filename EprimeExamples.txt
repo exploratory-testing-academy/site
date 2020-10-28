@@ -1,3 +1,14 @@
+CONFIRMING EPRIME AND NOT EPRIME
+
+SHOULD BE EPRIME 
+- false negatives: is eprime but the program thinks it isn't
+
+
+SHOULD NOT BE EPRIME
+- false positive: isn't eprime but the program thinks it is
+
+----------------
+
 Functions of 'to be'
 
 identity            The cat is my only pet; The cat is Garfield

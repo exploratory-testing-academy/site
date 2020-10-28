@@ -57,6 +57,11 @@ html {
       width: 80%;
   }
 
+  .person {
+    width: 100px;
+    border-radius: 50%;
+}
+
   .workshop {
     border-block: 1px;
 } 
