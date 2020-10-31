@@ -44,11 +44,11 @@ function myMap() {
       });
 
     google.maps.event.addListener(markerMirja, 'click', function() {
-        infowindowMaaret.open(map,markerMirja);
+        infowindowMirja.open(map,markerMirja);
       }); 
     
     google.maps.event.addListener(markerElizabeth, 'click', function() {
-        infowindowMaaret.open(map,markerElizabeth);
+        infowindowElizabeth.open(map,markerElizabeth);
       });
 
     }
