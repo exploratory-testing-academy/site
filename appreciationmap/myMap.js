@@ -1,6 +1,6 @@
 
 function myMap() {
-    const betterCenter = { lat: 0, lng: 0}
+    const betterCenter = { lat: -26.161200, lng: 28.375320}
     const helsinkiFinland = { lat: 60.192059, lng: 24.945831 };
     const rotterdamNetherlands = { lat: 51.905445, lng: 4.466637}
     const sydneyAustralia = {lat: -33.865143, lng: 151.209900}
