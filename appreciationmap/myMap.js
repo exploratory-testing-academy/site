@@ -3,6 +3,7 @@ function myMap() {
     const helsinkiFinland = { lat: 60.192059, lng: 24.945831 };
     const rotterdamNetherlands = { lat: 51.905445, lng: 4.466637}
     const sydneyAustralia = {lat: -33.865143, lng: 151.209900}
+    const oregonUSA = {lat: 43.804134, lng: -120.554199}
     var mapProp= {
       center: helsinkiFinland, 
       zoom:2,
@@ -28,11 +29,17 @@ function myMap() {
       position: sydneyAustralia, 
       icon:'img/pin20x.png'
         });
-    
+
+    var markerCarol = new google.maps.Marker({
+      position: oregonUSA, 
+      icon:'img/pin20x.png'
+        });        
+
     markerMaaret.setMap(map);
     markerMirja.setMap(map);
     markerElizabeth.setMap(map);
     markerAnneMarie.setMap(map);
+    markerCarol.setMap(map);
 
     var infowindowMaaret = new google.maps.InfoWindow({
         content:"Maaret Pyhäjärvi"
