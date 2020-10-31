@@ -1,24 +1,54 @@
 
 function myMap() {
     const helsinkiFinland = { lat: 60.192059, lng: 24.945831 };
+    const rotterdamNetherlands = { lat: 51.905445, lng: 4.466637}
     var mapProp= {
       center: helsinkiFinland, 
       zoom:2,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-    var marker = new google.maps.Marker({
+    
+    var markerMaaret = new google.maps.Marker({
         position: helsinkiFinland,
         icon:'img/pin20x.png'
         });
-    
-    marker.setMap(map);
 
-    var infowindow = new google.maps.InfoWindow({
+    var markerMirja = new google.maps.Marker({
+        position: helsinkiFinland, 
+        icon:'img/pin20x.png'
+        });
+
+    var markerElizabeth = new google.maps.Marker({
+      position: rotterdamNetherlands, 
+      icon:'img/pin20x.png'
+        });
+    
+    markerMaaret.setMap(map);
+    markerMirja.setMap(map);
+    markerElizabeth.setMap(map);
+
+    var infowindowMaaret = new google.maps.InfoWindow({
         content:"Maaret Pyhäjärvi"
       });
       
-      google.maps.event.addListener(marker, 'click', function() {
-        infowindow.open(map,marker);
+    var infowindowMirja = new google.maps.InfoWindow({
+        content:"Mirja Pyhäjärvi"
+      });
+
+    var infowindowElizabeth = new google.maps.InfoWindow({
+        content:"Elizabeth Zagroba"
+      });
+
+    google.maps.event.addListener(markerMaaret, 'click', function() {
+        infowindowMaaret.open(map,markerMaaret);
+      });
+
+    google.maps.event.addListener(markerMirja, 'click', function() {
+        infowindowMaaret.open(map,markerMirja);
+      }); 
+    
+    google.maps.event.addListener(markerElizabeth, 'click', function() {
+        infowindowMaaret.open(map,markerElizabeth);
       });
 
     }
