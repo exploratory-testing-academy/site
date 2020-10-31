@@ -32,7 +32,7 @@ function myMap() {
     markerMaaret.setMap(map);
     markerMirja.setMap(map);
     markerElizabeth.setMap(map);
-    marketAnneMarie.setMap(map);
+    markerAnneMarie.setMap(map);
 
     var infowindowMaaret = new google.maps.InfoWindow({
         content:"Maaret Pyhäjärvi"
