@@ -22,6 +22,11 @@ function myMap() {
         icon:'img/pin20x.png'
         });
 
+    var markerRu = new google.maps.Marker({
+        position: helsinkiFinland, 
+        icon:'img/pin20x.png'
+        });
+
     var markerElizabeth = new google.maps.Marker({
       position: rotterdamNetherlands, 
       icon:'img/pin20x.png'
@@ -48,6 +53,7 @@ function myMap() {
     markerAnneMarie.setMap(map);
     markerCarol.setMap(map);
     markerAlex.setMap(map);
+    markerRu.setMap(map);
 
     var infowindowMaaret = new google.maps.InfoWindow({
         content:"Maaret Pyhäjärvi"
