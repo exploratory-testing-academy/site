@@ -8,7 +8,7 @@ function myMap() {
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     var marker = new google.maps.Marker({
         position: helsinkiFinland,
-        icon:'../ExploratoryTesting30x.png'
+        icon:'../pin20x.png'
         });
     
     marker.setMap(map);
