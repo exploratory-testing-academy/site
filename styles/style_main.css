@@ -2,7 +2,7 @@ html {
     font-family: 'Lato', cursive;
     font-size: 20;
   }
-  
+
   h1 {
       font-family: 'Lobster', cursive;
       font-size: 112;
@@ -15,7 +15,7 @@ html {
     font-size: 30;
     color: #000000;
   }
-  
+
   hr {
     border-bottom: 2px solid #0492C2;
     width: 80%;
@@ -25,7 +25,7 @@ html {
       font-family: 'Lobster', cursive;
       color: #000000;
   }
-  
+
   h3 {
       font-family: 'Lobster', cursive;
       font-size: 80;
@@ -48,7 +48,7 @@ html {
   .grid-container {
       display: grid;
       grid-column-gap: 10px;
-      grid-template-areas: 
+      grid-template-areas:
       'logo logo listing listing listing listing'
       'onlinews onlinews selfstudy selfstudy other other'
   }
@@ -64,7 +64,7 @@ html {
 
   .workshop {
     border-block: 1px;
-} 
+}
 
 .workshop h2 {
     font-size: 20;
@@ -81,39 +81,39 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; }
-  
+
   @media all and (min-width: 53.125em) {
     .mainnav ul {
       border-bottom: 4px solid #0492C2; }
     }
-  
+
   .mainnav li {
     margin: 0 10px; }
-  
+
   .mainnav a {
     text-transform: uppercase;
     text-decoration: none;
     display: block;
     color: #000000;
     padding: 10px 0; }
-  
+
   .mainnav a:hover {
     border-bottom: 4px solid #d54282;;
     margin-bottom: -4px; }
-  
+
   .mainnav a.selected, .mainnav a.selected:hover {
     color: #000000;
     border-bottom: 4px solid #d54282;
-    margin-bottom: -4px; } 
+    margin-bottom: -4px; }
 
- /** Bottom of the page **/ 
+ /** Bottom of the page **/
 
  /** Waves **/
   svg {
     width: 100%;
     float:left;
     clear:none; }
-  
+
   .main-footer {
     background-color: #0492C2;
     width: 97%;
@@ -124,19 +124,18 @@ html {
     float:left;
     clear:none;
     text-align: center; }
-  
+
   .main-footer h1 {
     color: #ffffff; }
-  
+
   .main-footer p {
     margin: 0 0 1em 0; }
-  
+
   .main-footer a:link,
   .main-footer a:visited {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none; }
-  
+
   .main-footer a:hover {
     color: #000000; }
-  
