@@ -9,6 +9,7 @@ function myMap() {
     const somewhereUK = {lat: 51.509865, lng: -0.118092}
     const somewhereCroatia = {lat: 43.508133, lng: 16.440193}
     const somewherePortugal = {lat: 41.145821, lng: -8.613985}
+    const somewhereBelgium = {lat: 51.260197 , lng: 4.402771}
     var mapProp= {
       center: betterCenter,
       zoom:2,
@@ -70,6 +71,11 @@ function myMap() {
       icon:'img/pin20x.png'
         });
 
+    var markerZeger = new google.maps.Marker({
+      position: somewhereBelgium,
+      icon:'img/pin20x.png'
+        });
+
     markerMaaret.setMap(map);
     markerMirja.setMap(map);
     markerElizabeth.setMap(map);
@@ -81,6 +87,7 @@ function myMap() {
     markerParveen.setMap(map);
     markerIrja.setMap(map);
     markerSergio.setMap(map);
+    markerZeger.setMap(map);
 
     var infowindowMaaret = new google.maps.InfoWindow({
         content:"Maaret Pyhäjärvi"
