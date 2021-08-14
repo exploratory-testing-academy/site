@@ -139,3 +139,27 @@ html {
 
   .main-footer a:hover {
     color: #000000; }
+
+button {
+  vertical-align: middle;
+  line-height: 33px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgb(34 34 34 / 5%);
+  color: #fff; 
+  letter-spacing: -0.15px;
+  box-shadow: 1px 1px 0px rgb(0 0 0 / 20%);
+  min-width: 150px;
+  display: inline-block;
+  background-color: #29abe0;
+  padding: 2px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  vertical-align: middle;
+  border: 0 none #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
